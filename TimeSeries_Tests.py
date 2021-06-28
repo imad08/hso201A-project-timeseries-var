@@ -1,13 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed May 30 12:50:36 2018
-@author: Prakash.Tiwari
-Functions -->
-check_summary : Basic summary stats
-check_distribution : Plot histogram
-check_stationarity : Check stationarity
-check_plots : Basic line plots
-"""
+
 import os
 import numpy as np 
 import pandas as pd
