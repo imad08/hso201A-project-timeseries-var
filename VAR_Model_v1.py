@@ -1,39 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May 30 14:56:08 2018
 
-@author: Prakash.Tiwari
-
-Purpose: Vector Auto regressive models
-
-Transformations - Only on level variables
-    Log Diff  
-    Percentage
-   
-Variables - 
-    Rate variables - unemp, infl
-    level variables - GDP, CPI, HPI, CRE
-
-Tests:
-    Stationarity of series - Done
-    Cointegration of the series - Pending
-
-Function --> 
-
-def make_var_model:
-    To do:
-    
-    1. Add OLS Residual tests:
-        Auto-correlation of residuals - Pending
-        Homoscedasiticty of residuals - Pending
-        Normally distributed - Pending
-    
-    2. Add model performance measures for different equations - R_square, ..      
-    
-    3. Store results in a dataframe for viewing different models - indexed by Lags       
-        
-        
-"""
 from TimeSeries_Tests import *
 from statsmodels.tsa.api import VAR, DynamicVAR
 import statsmodels.api as sm
